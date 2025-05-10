@@ -28,7 +28,11 @@ Nessa etapa, vamos evoluir o trabalho anterior, acrescentando a página de detal
 
 A API da aplicação foi criada com o uso do **JSON Server**, utilizando um arquivo `db.json` com uma estrutura de dados representando receitas.
 
+![Print da área NETWORK](./public/insp.png)
+
 ### ✅ Estrutura inserida no `db.json`:
+
+![Print do retorno da API](./public/APIreturn.png)
 
 ```json
 {
