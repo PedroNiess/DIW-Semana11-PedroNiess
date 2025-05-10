@@ -2,7 +2,9 @@
 
 **Páginas de detalhes dinâmicas**
 
-Nessa etapa, vamos evoluir o trabalho anterior, acrescentando a página de detalhes, conforme o  projeto escolhido. Imagine que a página principal (home-page) mostre uma visão dos vários itens que existem no seu site. Ao clicar em um item, você é direcionado para a página de detalhes. A página de detalhe vai mostrar todas as informações sobre o item do seu projeto – seja esse item uma notícia, filme, receita, lugar turístico ou evento.
+Nessa etapa, vamos evoluir o trabalho anterior, acrescentando a página de detalhes, conforme o projeto escolhido. Imagine que a página principal (home-page) mostre uma visão dos vários itens que existem no seu site. Ao clicar em um item, você é direcionado para a página de detalhes. A página de detalhe vai mostrar todas as informações sobre o item do seu projeto – seja esse item uma notícia, filme, receita, lugar turístico ou evento.
+
+---
 
 ## Informações Gerais
 
@@ -14,9 +16,11 @@ Nessa etapa, vamos evoluir o trabalho anterior, acrescentando a página de detal
 
 ---
 
-## Print da versão responsiva com CSS puro
+## Etapa 1 – Responsividade com CSS puro
 
-(./public/CapturadeTela.png)
+### ✅ Print da versão responsiva com CSS
+
+![Print da versão responsiva](./public/CapturadeTela.png)
 
 ---
 
@@ -24,11 +28,7 @@ Nessa etapa, vamos evoluir o trabalho anterior, acrescentando a página de detal
 
 A API da aplicação foi criada com o uso do **JSON Server**, utilizando um arquivo `db.json` com uma estrutura de dados representando receitas.
 
-### Exemplo de estrutura inserida no `db.json`:
-
-Print da tela mostrando o retorno do JSON Server:
-
-(./public/APIreturn.png)
+### ✅ Estrutura inserida no `db.json`:
 
 ```json
 {
@@ -37,19 +37,28 @@ Print da tela mostrando o retorno do JSON Server:
       "id": 1,
       "nome": "Brigadeiro",
       "tempoPreparo": "30 minutos",
-      "ingredientes": ["leite condensado", "chocolate", "manteiga"]
+      "descricao": "Doce tradicional brasileiro feito com chocolate.",
+      "imagem": "brigadeiro.png",
+      "ingredientes": ["leite condensado", "chocolate", "manteiga"],
+      "modoPreparo": ["Misture tudo", "Cozinhe até soltar do fundo"]
     },
     {
       "id": 2,
       "nome": "Bolo de Cenoura",
       "tempoPreparo": "50 minutos",
-      "ingredientes": ["cenoura", "farinha", "açúcar", "ovos"]
+      "descricao": "Bolo clássico com cobertura de chocolate.",
+      "imagem": "bolo-cenoura.png",
+      "ingredientes": ["cenoura", "farinha", "açúcar", "ovos"],
+      "modoPreparo": ["Bata tudo", "Asse por 40 minutos"]
     },
     {
       "id": 3,
       "nome": "Pudim",
       "tempoPreparo": "1 hora",
-      "ingredientes": ["leite", "ovos", "açúcar", "leite condensado"]
+      "descricao": "Sobremesa tradicional com calda caramelizada.",
+      "imagem": "pudim.png",
+      "ingredientes": ["leite", "ovos", "açúcar", "leite condensado"],
+      "modoPreparo": ["Bata no liquidificador", "Asse em banho-maria"]
     }
   ]
 }
