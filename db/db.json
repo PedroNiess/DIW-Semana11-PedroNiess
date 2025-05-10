@@ -1,0 +1,23 @@
+{
+    "receitas": [
+      {
+        "id": 1,
+        "nome": "Brigadeiro",
+        "tempoPreparo": "30 minutos",
+        "ingredientes": ["leite condensado", "chocolate", "manteiga"]
+      },
+      {
+        "id": 2,
+        "nome": "Bolo de Cenoura",
+        "tempoPreparo": "50 minutos",
+        "ingredientes": ["cenoura", "farinha", "açúcar", "ovos"]
+      },
+      {
+        "id": 3,
+        "nome": "Pudim",
+        "tempoPreparo": "1 hora",
+        "ingredientes": ["leite", "ovos", "açúcar", "leite condensado"]
+      }
+    ]
+  }
+  
